@@ -9,7 +9,7 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Settings')),
+      appBar: AppBar(title: const Text('Settings')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -28,7 +28,7 @@ class SettingsScreen extends StatelessWidget {
                           title: 'Enter Password',
                           content: TextField(
                             controller: fingerPrintController.passwordController,
-                            obscureText: true, // Hide password characters
+                            obscureText: true,
                             decoration: const InputDecoration(
                               border: OutlineInputBorder(),
                               labelText: 'Password',
@@ -37,7 +37,7 @@ class SettingsScreen extends StatelessWidget {
                           actions: [
                             TextButton(
                               onPressed: Get.back,
-                              child: Text('Cancel'),
+                              child: const Text('Cancel'),
                             ),
                             TextButton(
                               onPressed: fingerPrintController.onPasswordSubmitted,

@@ -12,6 +12,8 @@ class LoginScreen extends StatelessWidget {
   final FingerPrintController fingerPrintController = Get.put(FingerPrintController());
   final AuthController authController = Get.put(AuthController());
   final box = GetStorage();
+
+  LoginScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,14 +43,10 @@ class LoginScreen extends StatelessWidget {
               // Show fingerprint logo conditionally
               if (authController.isFingerprintEnabled.value) {
                 return IconButton(
-                  icon: Icon(Icons.fingerprint, size: 100, color: Colors.red,),
-                  onPressed: () {
-                    // Authenticate with fingerprint
-                    // Handle authentication success and navigate accordingly
-                    Get.offNamed('/dashboard');
-                  },
+                  icon: const Icon(Icons.fingerprint, size: 100, color: Colors.red,),
+                  onPressed: () {},
                 );
-              } else {
+              } else{
                 return Container();
               }
             }),

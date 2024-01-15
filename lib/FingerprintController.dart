@@ -1,4 +1,3 @@
-import 'package:fingerprint_login/FingerprintScreen.dart';
 import 'package:fingerprint_login/Login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
@@ -83,7 +82,7 @@ class FingerPrintController extends GetxController {
       isFingerprintEnabled.value = true;
       onSuccess();
     } else {
-      // Handle authentication failure
+      /// Handle authentication failure
       Get.snackbar('Authentication failed', 'Fingerprint not recognized');
     }
   }

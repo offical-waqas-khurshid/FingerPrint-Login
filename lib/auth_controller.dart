@@ -21,9 +21,7 @@ class AuthController extends GetxController {
       storeData(user);
     }
 
-    // Your login logic here
-    // For example, navigate to the dashboard screen
-    Get.offNamed('/dashboard');
+    Get.to(SettingsScreen());
   }
 
 
