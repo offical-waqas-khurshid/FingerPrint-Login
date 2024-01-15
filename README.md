@@ -4,13 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In This project, if the 
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/offical-waqas-khurshid/FingerPrint-Login-GetStorage/assets/111581093/82101a09-53d3-4cd2-9c16-ed858a315085
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+user already exits in Storage then shows automatically the logo of the fingerprint otherwise not show till the user enters his data and enables it in the settings screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
