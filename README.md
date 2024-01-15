@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+In This project if user already exits in Storage then show automatically logo of fingerprint otherwise not show till when user enter his data and enable in setting screen.
 
 
 
